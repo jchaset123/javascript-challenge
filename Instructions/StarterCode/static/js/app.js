@@ -1,4 +1,4 @@
-/* Complete LEVEL1
+//Complete LEVEL1
 // from data.js
 var tableData = data;
 console.log(tableData);
@@ -28,7 +28,7 @@ tableData.forEach(function(ufoSighting){
     cell.text(value);
     })
 })
-*/
+
 
 //BIG ARROW Level 1
 // from data.js
@@ -50,7 +50,7 @@ tableData.forEach((ufoSighting) => {
       cell.text(value);
     });
   });
- 
+ /*
  // Select button
  const button = d3.select("#filter-btn");
  // Select form
@@ -70,3 +70,4 @@ tableData.forEach((ufoSighting) => {
  const filteredData = tableData.filter(sighting => sighting.datetime === inputValue);
  console.log(filteredData);
  };
+ */
